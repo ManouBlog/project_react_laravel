@@ -1,0 +1,39 @@
+*,*::after,*::before{
+    padding:0;
+    margin:0;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lien{
+  text-align: center;
+  padding:1em;
+  margin:0;
+  background: #000;
+  color:white;
+  font-weight:bold;
+}
+.liens{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em;
+}
+.liens .les_liens a{
+    text-decoration: none;
+    margin-left: .5em;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+.
+.ul_liens {
+    list-style: none;
+    background:rgb(95, 95, 95);
+    width: 200px;
+}
+.ul_liens li a{
+ text-decoration: none;
+ color: black;
+ font-weight: bold;
+}
+   
